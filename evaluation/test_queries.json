@@ -1,0 +1,92 @@
+[
+    {
+        "query_id": "q1",
+        "query": "What are the key architectural innovations in Vision Transformers compared to CNNs?",
+        "domain": "computer_vision",
+        "complexity": "multi_paper"
+    },
+    {
+        "query_id": "q2",
+        "query": "How do large language models handle in-context learning and what are the theoretical explanations?",
+        "domain": "nlp",
+        "complexity": "multi_paper"
+    },
+    {
+        "query_id": "q3",
+        "query": "Compare different approaches to retrieval-augmented generation (RAG) and their effectiveness",
+        "domain": "nlp",
+        "complexity": "multi_paper"
+    },
+    {
+        "query_id": "q4",
+        "query": "What are the main techniques for making transformer models more efficient?",
+        "domain": "efficiency",
+        "complexity": "multi_paper"
+    },
+    {
+        "query_id": "q5",
+        "query": "How do diffusion models work for image generation and what are their advantages over GANs?",
+        "domain": "generative_models",
+        "complexity": "multi_paper"
+    },
+    {
+        "query_id": "q6",
+        "query": "What are the state-of-the-art methods for neural network pruning and quantization?",
+        "domain": "efficiency",
+        "complexity": "multi_paper"
+    },
+    {
+        "query_id": "q7",
+        "query": "Explain the key concepts behind reinforcement learning from human feedback (RLHF)",
+        "domain": "rl",
+        "complexity": "multi_paper"
+    },
+    {
+        "query_id": "q8",
+        "query": "What are the main approaches to multimodal learning combining vision and language?",
+        "domain": "multimodal",
+        "complexity": "multi_paper"
+    },
+    {
+        "query_id": "q9",
+        "query": "How do graph neural networks aggregate information and what are their limitations?",
+        "domain": "graph_ml",
+        "complexity": "multi_paper"
+    },
+    {
+        "query_id": "q10",
+        "query": "What are the key challenges and solutions for federated learning privacy?",
+        "domain": "distributed_ml",
+        "complexity": "multi_paper"
+    },
+    {
+        "query_id": "q11",
+        "query": "Compare attention mechanisms: self-attention, cross-attention, and sparse attention",
+        "domain": "architectures",
+        "complexity": "multi_paper"
+    },
+    {
+        "query_id": "q12",
+        "query": "What are the main approaches to continual learning and catastrophic forgetting?",
+        "domain": "learning_paradigms",
+        "complexity": "multi_paper"
+    },
+    {
+        "query_id": "q13",
+        "query": "How do neural radiance fields (NeRF) represent 3D scenes and what are recent improvements?",
+        "domain": "3d_vision",
+        "complexity": "multi_paper"
+    },
+    {
+        "query_id": "q14",
+        "query": "What are the key techniques for making language models follow instructions?",
+        "domain": "nlp",
+        "complexity": "multi_paper"
+    },
+    {
+        "query_id": "q15",
+        "query": "Explain contrastive learning approaches for self-supervised representation learning",
+        "domain": "self_supervised",
+        "complexity": "multi_paper"
+    }
+]

@@ -1,0 +1,136 @@
+{
+  "timestamp": "2026-01-10T12:30:40.963619",
+  "aggregate_metrics": {
+    "total_queries": 5,
+    "successful_queries": 4,
+    "success_rate": 0.8,
+    "avg_recall_at_k": 0.0,
+    "avg_mrr": 0.0,
+    "avg_context_precision": 0.0,
+    "avg_faithfulness": 0.0,
+    "total_unsupported_claims": 18,
+    "hallucination_rate": 1.0,
+    "avg_synthesis_score": 1.0,
+    "avg_comparison_score": 1.0,
+    "avg_limitation_score": 3.0,
+    "avg_latency_ms": 3189.202845096588,
+    "total_tokens_used": 12171
+  },
+  "individual_results": [
+    {
+      "query_id": "q1",
+      "query": "What are the key architectural innovations in Vision Transformers compared to CNNs?",
+      "success": false,
+      "papers_retrieved": [],
+      "expected_papers": [
+        "2010.11929",
+        "2103.14030",
+        "2106.04803"
+      ],
+      "recall_at_k": 0.0,
+      "mrr": 0.0,
+      "context_precision": 0.0,
+      "faithfulness_score": 0.0,
+      "unsupported_claims": 0,
+      "hallucination_flag": false,
+      "synthesis_score": 0,
+      "comparison_score": 0,
+      "limitation_score": 0,
+      "total_latency_ms": 8341.392278671265,
+      "tokens_used": 12171,
+      "error": "Error code: 413 - {'error': {'message': 'Request too large for model `llama-3.1-8b-instant` in organization `org_01ke9jnxkqfzrrwb2ycr2sj9k1` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Requested 9673, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+    },
+    {
+      "query_id": "q2",
+      "query": "How do large language models handle in-context learning and what are the theoretical explanations?",
+      "success": true,
+      "papers_retrieved": [],
+      "expected_papers": [
+        "2005.14165",
+        "2202.12837",
+        "2301.00234"
+      ],
+      "recall_at_k": 0.0,
+      "mrr": 0.0,
+      "context_precision": 0.0,
+      "faithfulness_score": 0.0,
+      "unsupported_claims": 4,
+      "hallucination_flag": true,
+      "synthesis_score": 1,
+      "comparison_score": 1,
+      "limitation_score": 3,
+      "total_latency_ms": 2773.406744003296,
+      "tokens_used": 0,
+      "error": null
+    },
+    {
+      "query_id": "q3",
+      "query": "Compare different approaches to retrieval-augmented generation (RAG) and their effectiveness",
+      "success": true,
+      "papers_retrieved": [],
+      "expected_papers": [
+        "2005.11401",
+        "2302.00083",
+        "2312.10997"
+      ],
+      "recall_at_k": 0.0,
+      "mrr": 0.0,
+      "context_precision": 0.0,
+      "faithfulness_score": 0.0,
+      "unsupported_claims": 5,
+      "hallucination_flag": true,
+      "synthesis_score": 1,
+      "comparison_score": 1,
+      "limitation_score": 3,
+      "total_latency_ms": 3714.0414714813232,
+      "tokens_used": 0,
+      "error": null
+    },
+    {
+      "query_id": "q4",
+      "query": "What are the main techniques for making transformer models more efficient?",
+      "success": true,
+      "papers_retrieved": [],
+      "expected_papers": [
+        "2009.06732",
+        "2205.14135",
+        "2305.13245"
+      ],
+      "recall_at_k": 0.0,
+      "mrr": 0.0,
+      "context_precision": 0.0,
+      "faithfulness_score": 0.0,
+      "unsupported_claims": 4,
+      "hallucination_flag": true,
+      "synthesis_score": 1,
+      "comparison_score": 1,
+      "limitation_score": 3,
+      "total_latency_ms": 2932.9423904418945,
+      "tokens_used": 0,
+      "error": null
+    },
+    {
+      "query_id": "q5",
+      "query": "How do diffusion models work for image generation and what are their advantages over GANs?",
+      "success": true,
+      "papers_retrieved": [],
+      "expected_papers": [
+        "2006.11239",
+        "2105.05233",
+        "2112.10752"
+      ],
+      "recall_at_k": 0.0,
+      "mrr": 0.0,
+      "context_precision": 0.0,
+      "faithfulness_score": 0.0,
+      "unsupported_claims": 5,
+      "hallucination_flag": true,
+      "synthesis_score": 1,
+      "comparison_score": 1,
+      "limitation_score": 3,
+      "total_latency_ms": 3336.420774459839,
+      "tokens_used": 0,
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+    "q1": {
+        "expected_paper_ids": [
+            "2010.11929",
+            "2103.14030",
+            "2106.04803"
+        ],
+        "expected_sections": [
+            "methods",
+            "experiments"
+        ],
+        "keywords": [
+            "vision transformer",
+            "ViT",
+            "attention",
+            "CNN"
+        ]
+    },
+    "q2": {
+        "expected_paper_ids": [
+            "2005.14165",
+            "2202.12837",
+            "2301.00234"
+        ],
+        "expected_sections": [
+            "introduction",
+            "methods"
+        ],
+        "keywords": [
+            "in-context learning",
+            "GPT",
+            "few-shot"
+        ]
+    },
+    "q3": {
+        "expected_paper_ids": [
+            "2005.11401",
+            "2302.00083",
+            "2312.10997"
+        ],
+        "expected_sections": [
+            "methods",
+            "experiments"
+        ],
+        "keywords": [
+            "RAG",
+            "retrieval",
+            "augmented generation"
+        ]
+    },
+    "q4": {
+        "expected_paper_ids": [
+            "2009.06732",
+            "2205.14135",
+            "2305.13245"
+        ],
+        "expected_sections": [
+            "methods",
+            "experiments"
+        ],
+        "keywords": [
+            "efficient transformer",
+            "linear attention",
+            "sparse"
+        ]
+    },
+    "q5": {
+        "expected_paper_ids": [
+            "2006.11239",
+            "2105.05233",
+            "2112.10752"
+        ],
+        "expected_sections": [
+            "methods",
+            "experiments"
+        ],
+        "keywords": [
+            "diffusion",
+            "DDPM",
+            "score matching",
+            "GAN"
+        ]
+    },
+    "q6": {
+        "expected_paper_ids": [
+            "1710.01878",
+            "2103.13630",
+            "2203.02155"
+        ],
+        "expected_sections": [
+            "methods"
+        ],
+        "keywords": [
+            "pruning",
+            "quantization",
+            "compression"
+        ]
+    },
+    "q7": {
+        "expected_paper_ids": [
+            "2203.02155",
+            "2204.05862",
+            "2305.18290"
+        ],
+        "expected_sections": [
+            "methods",
+            "experiments"
+        ],
+        "keywords": [
+            "RLHF",
+            "human feedback",
+            "preference learning"
+        ]
+    },
+    "q8": {
+        "expected_paper_ids": [
+            "2103.00020",
+            "2201.12086",
+            "2304.08485"
+        ],
+        "expected_sections": [
+            "methods",
+            "experiments"
+        ],
+        "keywords": [
+            "CLIP",
+            "multimodal",
+            "vision-language"
+        ]
+    },
+    "q9": {
+        "expected_paper_ids": [
+            "1609.02907",
+            "1706.02216",
+            "2002.02126"
+        ],
+        "expected_sections": [
+            "methods"
+        ],
+        "keywords": [
+            "GNN",
+            "graph convolution",
+            "message passing"
+        ]
+    },
+    "q10": {
+        "expected_paper_ids": [
+            "1602.05629",
+            "1912.04977",
+            "2108.10818"
+        ],
+        "expected_sections": [
+            "methods",
+            "experiments"
+        ],
+        "keywords": [
+            "federated learning",
+            "privacy",
+            "differential privacy"
+        ]
+    },
+    "q11": {
+        "expected_paper_ids": [
+            "1706.03762",
+            "2004.05150",
+            "2102.03902"
+        ],
+        "expected_sections": [
+            "methods"
+        ],
+        "keywords": [
+            "attention",
+            "self-attention",
+            "sparse attention"
+        ]
+    },
+    "q12": {
+        "expected_paper_ids": [
+            "1612.00796",
+            "1904.07734",
+            "2110.03922"
+        ],
+        "expected_sections": [
+            "methods",
+            "experiments"
+        ],
+        "keywords": [
+            "continual learning",
+            "catastrophic forgetting",
+            "lifelong"
+        ]
+    },
+    "q13": {
+        "expected_paper_ids": [
+            "2003.08934",
+            "2103.14024",
+            "2111.12077"
+        ],
+        "expected_sections": [
+            "methods",
+            "experiments"
+        ],
+        "keywords": [
+            "NeRF",
+            "neural radiance",
+            "3D reconstruction"
+        ]
+    },
+    "q14": {
+        "expected_paper_ids": [
+            "2109.01652",
+            "2210.11416",
+            "2304.03277"
+        ],
+        "expected_sections": [
+            "methods",
+            "experiments"
+        ],
+        "keywords": [
+            "instruction tuning",
+            "FLAN",
+            "InstructGPT"
+        ]
+    },
+    "q15": {
+        "expected_paper_ids": [
+            "2002.05709",
+            "2006.10029",
+            "2103.03230"
+        ],
+        "expected_sections": [
+            "methods",
+            "experiments"
+        ],
+        "keywords": [
+            "contrastive learning",
+            "SimCLR",
+            "MoCo",
+            "self-supervised"
+        ]
+    }
+}
