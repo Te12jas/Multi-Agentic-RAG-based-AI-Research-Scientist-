@@ -2,6 +2,8 @@
 
 An **agent-driven RAG system** that dynamically searches, retrieves, and synthesizes research papers from arXiv on-demand. Built with **Groq API** for fast LLM inference.
 
+Try it out here: https://appapppy-bkmfkdheax8sdsmxeebakx.streamlit.app/
+
 ## 🎯 Key Features
 
 - **Multi-Agentic Architecture**: 7 specialized agents work together in a pipeline
