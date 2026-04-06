@@ -4,6 +4,8 @@ An **agent-driven RAG system** that dynamically searches, retrieves, and synthes
 
 Try it out here: https://appapppy-bkmfkdheax8sdsmxeebakx.streamlit.app/
 
+![Demo Image](Demo.jpg)
+
 ## 🎯 Key Features
 
 - **Multi-Agentic Architecture**: 7 specialized agents work together in a pipeline
