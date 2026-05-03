@@ -17,47 +17,7 @@ Try it out here: https://appapppy-bkmfkdheax8sdsmxeebakx.streamlit.app/
 
 ## 🏗️ System Architecture
 
-```
-┌─────────────────────┐
-│     User Query      │
-└─────────┬───────────┘
-          ▼
-┌─────────────────────┐
-│   Planner Agent     │ ← Query decomposition & search strategy
-└─────────┬───────────┘
-          ▼
-┌─────────────────────┐
-│    Search Agent     │ ← arXiv API integration
-└─────────┬───────────┘
-          ▼
-┌─────────────────────┐
-│   Ingestion Agent   │ ← PDF download & text extraction
-└─────────┬───────────┘
-          ▼
-┌─────────────────────┐
-│ Ephemeral Vector DB │ ← FAISS (session-scoped)
-└─────────┬───────────┘
-          ▼
-┌─────────────────────┐
-│   Retrieval Agent   │ ← Dense semantic retrieval
-└─────────┬───────────┘
-          ▼
-┌─────────────────────┐
-│   Reranking Agent   │ ← LLM-based relevance scoring
-└─────────┬───────────┘
-          ▼
-┌─────────────────────┐
-│  Reasoning Agent    │ ← Multi-document synthesis
-└─────────┬───────────┘
-          ▼
-┌─────────────────────┐
-│   Safety Agent      │ ← Citation & hallucination checks
-└─────────┬───────────┘
-          ▼
-┌─────────────────────┐
-│   Final Response    │ ← Structured, cited answer
-└─────────────────────┘
-```
+![System Architecture](architecture.png)
 
 ## 🚀 Quick Start
 
